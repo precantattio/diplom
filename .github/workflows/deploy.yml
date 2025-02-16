@@ -1,0 +1,4 @@
+- name: Build and push Docker image
+  run: |
+    docker build -t precantattio/dok:latest .
+    docker push precantattio/dok:latest
